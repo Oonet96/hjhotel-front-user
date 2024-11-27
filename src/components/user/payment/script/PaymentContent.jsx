@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useEffect, useState } from "react";
+import PayPalButtonComponent from "../../../common/PayPalButtonComponent";
 
 export default function PaymentContent() {
 // 예약 정보를 저장할 상태
@@ -83,6 +84,7 @@ return (
         <label className="form-check-label" htmlFor="payment_paypal">PayPal</label>
       </div>
     </div>
+    <PayPalButtonComponent />
     <button class="btn btn-primary" type="submit">결제하기</button>
   </div>
   );
