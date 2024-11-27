@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-//24.11.12 지은 [완료] : ButteonEx 적용 테스트.
+//24.11.27 지은 [완료] : createBrowserRouter 형식으로 적용
 export default function Header() {
   return (
     <div>
@@ -24,6 +24,9 @@ export default function Header() {
       </Link>
       <Link to="/user">
         <p>user</p>
+      </Link>
+      <Link to="/test">
+        <p>spring boot. back-end 서버 연결 테스트</p>
       </Link>
     </div>
   );

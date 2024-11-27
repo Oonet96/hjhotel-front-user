@@ -8,6 +8,7 @@ import CommunityContent from "../components/user/community/script/CommunityConte
 import PaymentContent from "../components/user/payment/script/PaymentContent";
 import MemberContent from "../components/user/member/script/MemberContent";
 import AboutContent from "../components/user/about/script/AboutContent";
+import TestPage from "../pages/TestPage";
 
 export const RouterInfo = [
   {
@@ -45,6 +46,10 @@ export const RouterInfo = [
       {
         path: "user",
         element: <MemberContent />,
+      },
+      {
+        path: "test", //test를 위해 추가한 페이지
+        element: <TestPage />,
       },
     ],
   },
