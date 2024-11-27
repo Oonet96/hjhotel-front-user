@@ -1,0 +1,23 @@
+h2{
+    font-size: large;
+    color: grba(255,255 ,255,0.7);
+}
+.About_list{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgba(255,255,255,0.8);
+    
+}
+.About_list li{
+    margin:50px 10px ;
+    color: rgba(255,255,255,0.6);
+    font-size:50px;
+    border: 1px solid rgba(255,255,255,0.8);
+    text-align: center;
+    align-items: center
+    ;
+}
