@@ -6,7 +6,7 @@ export default function TestPage() {
   // setData가 data 변수를 업데이트 해주는 함수
 
   useEffect(() => {
-    fetch(`http://localhost:8080/api/test`)
+    fetch(`http://localhost:8080/api/sample`)
     .then(response => {
       if (!response.ok) {
       throw new Error("응답 실패");
