@@ -1,1 +1,76 @@
-/* AboutContent.css */
+
+/*전체컨테이너 스타일*/
+.community-content{
+  font-family: Arial,  sans-serif;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/*제목 스타일*/
+h1{
+  text-align:center;
+  color:#333;
+}
+/*폼 컨테이너 스타일*/
+.form-container{
+  margin-bottom: 20px;
+  padding: 15px;
+  border:1px solid #ddd;
+  border-radius:8px;
+}
+/* 입력 필드와 텍스트 영역*/
+.form-container input,
+.form-container textarea{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius:4px;
+}
+/*버튼 스타일*/
+.form-container button{
+  padding: 10px 20px;
+  margin-right:10px;
+  border: none;
+  background-color:#4caf50;
+  color:white;
+  cursor: pointer;
+  border-radius:4px;
+}
+.form-container button:hover{
+  background-color: #45a049;
+}
+/*게시글 목록 컨테이너*/
+.board-list ul{
+  list-style: none;
+  padding: 0;
+}
+
+/*게시글 항목*/
+.board-ltem{
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom:5px;
+  cursor:pointer;
+  border-radius:4px;
+}
+.board-ltem:hover{
+  background-color: #f1f1f1;
+}
+/*중요 공지강조*/
+.board-ltem.important{
+  background-color: #ffecec;
+  border-color: #ff6b6b;
+}
+
+/*게시글 상세보기*/
+.board-detail{
+  padding: 15px;
+  border:1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+.board-detail h2{
+  margin-bottom: 15px;
+}
