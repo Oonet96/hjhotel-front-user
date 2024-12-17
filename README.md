@@ -11,3 +11,9 @@
 
 ### proxy-middleware
 - npm i http-proxy-middleware
+
+### date-fns
+- npm install date-fns --save
+
+### swiper
+- npm i swiper
