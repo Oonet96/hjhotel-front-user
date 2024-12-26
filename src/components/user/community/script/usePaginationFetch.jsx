@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from "react";
+import config from '../../../../config.js';
 
 // 24.12.11 지은 : payment에서 usePaginationFetch 가져옴.
 export default function usePaginationFetch(urlTest) {

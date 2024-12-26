@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../../member/css/MemberLoginPage.css';
 import { useUserInfo } from '../../../common/UserInfoProvider';
+import config from '../../../../config.js';
 
 function MemberLoginPage() {
     const [formData, setFormData] = useState({ userId: '', password: '' }); // 입력 데이터

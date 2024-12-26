@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { Button, Col, Form, Modal, Row, Table } from "react-bootstrap";
 import PaymentChooseModal from "./PaymentChooseModal";
 import { useLocation } from "react-router-dom";
+import config from '../../../../config.js';
 
 
 export default function PaymentContent() {

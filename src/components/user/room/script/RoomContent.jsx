@@ -1,6 +1,8 @@
 
 import React, { useState, useEffect } from "react";
 import RoomType from "./RoomType";
+import config from '../../../../config.js';
+
 import '../css/RoomContent.css'
 
 // RoomContent 컴포넌트

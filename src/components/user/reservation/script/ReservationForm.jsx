@@ -3,6 +3,7 @@ import { Link, useNavigate, useOutletContext } from "react-router-dom";
 import CustomCalendar from "./CustomCalendar";
 import { useEffect, useState } from "react";
 import { customFetch, REST } from "../../../../util/customFetch";
+import config from '../../../../config.js';
 
 function ReservationForm(){
 

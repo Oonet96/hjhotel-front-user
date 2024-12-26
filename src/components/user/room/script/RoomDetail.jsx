@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import "../css/RoomDetail.css";
 import { Link } from "react-router-dom";
+import config from '../../../../config.js';
 
 const RoomDetail = () => {
   const { roomTypeName } = useParams();

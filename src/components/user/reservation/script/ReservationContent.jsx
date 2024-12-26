@@ -1,6 +1,8 @@
 import { Outlet , useOutletContext } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { customFetch } from "../../../../util/customFetch";
+import config from '../../../../config.js';
+
 import '../css/ReservationContent.css';
 //24.11.25 지은 [완료] : ReservationContent 테스트.
 export default function ReservationContent() {

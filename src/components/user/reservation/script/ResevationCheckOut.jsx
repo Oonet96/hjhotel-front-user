@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { Outlet, useOutletContext } from "react-router-dom";
 import { customFetch } from "../../../../util/customFetch";
 import ButtonEx from "../../../common/ButtonEx";
+import config from '../../../../config.js';
 
 function ReservationCheckOut(){
 
