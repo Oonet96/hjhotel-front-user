@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { Button, Table } from "react-bootstrap";
 import { useNavigate, useParams } from "react-router-dom";
+import config from '../../../../config.js';
 
 // 24.12.11 지은 [작업중] : UI 및 조회수 증가 수정 해야함.
 export default function UsersNoticeDetailPage() {
