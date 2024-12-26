@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useState } from 'react';
+import config from '../../config.js';
 
 const UserInfoContext = createContext(null);
 
@@ -7,7 +8,7 @@ export function UserInfoProvider({ children }) {
 
     const fetchUserInfo = async () => {
         try {
-            const response = await fetch("http://localhost:8080/api/users/info", {
+            const response = await fetch(`${config.API_BASE_URL}/api/users/info`, {
                 method: "GET",
                 credentials: "include",
             });
