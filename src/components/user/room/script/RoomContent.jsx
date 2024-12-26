@@ -10,7 +10,7 @@ export default function RoomContent() {
   useEffect(() => {
     const fetchRoomTypes = async () => {
       try {
-        const response = await fetch("http://localhost:8080/api/users/rooms", {
+        const response = await fetch(`${config.API_BASE_URL}/api/users/rooms`, {
           method: 'GET',
           headers: {
             "Content-Type" : "application/json",

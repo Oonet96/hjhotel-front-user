@@ -30,7 +30,7 @@ export default function ReservationContent() {
 
   useEffect(()=>{
     const fetchData = async () => {
-      const res = await customFetch("http://localhost:8080/api/users/rooms/types/count");
+      const res = await customFetch(`${config.API_BASE_URL}/api/users/rooms/types/count`);
       if (res !== null){
         setRoomData(res);
         setLoadComplete(true);

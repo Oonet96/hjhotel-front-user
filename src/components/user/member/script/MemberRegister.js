@@ -55,7 +55,7 @@ const MemberRegister = () => {
 
         // 서버 요청
         try {
-            const response = await fetch('http://localhost:8080/api/users/register', {
+            const response = await fetch(`${config.API_BASE_URL}/api/users/register`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({

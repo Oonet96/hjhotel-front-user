@@ -20,7 +20,7 @@ function MemberLoginPage() {
     const handleLogin = async (e) => {
         e.preventDefault(); // 폼 기본 동작 방지
         try {
-            const response = await fetch('http://localhost:8080/api/users/login', {
+            const response = await fetch(`${config.API_BASE_URL}/api/users/login`, {
                 method: 'POST',
                 headers: { "Content-Type": "application/json" },
                 credentials: "include",

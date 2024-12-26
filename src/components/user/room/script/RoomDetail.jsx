@@ -10,7 +10,7 @@ const RoomDetail = () => {
   useEffect(() => {
     const fetchRoomDetail = async () => {
       try {
-        const response = await fetch(`http://localhost:8080/api/users/rooms/detail/${roomTypeName}`, {
+        const response = await fetch(`${config.API_BASE_URL}/api/users/rooms/detail/${roomTypeName}`, {
           method: 'GET',
           headers: {
             "Content-Type" : "application/json",
