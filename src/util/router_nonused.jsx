@@ -1,5 +1,5 @@
-//25.02.10 한택 [github page] : 깃허브 페이지 사용으로 인해 createBrowserRouter -> createHashRouter로 변경
-import { createHashRouter, Navigate } from "react-router-dom";
+
+import { createBrowserRouter, Navigate } from "react-router-dom";
 
 import UserPage from "../pages/UserPage";
 import RoomContent from "../components/user/room/script/RoomContent";
@@ -139,6 +139,6 @@ export const RouterInfo = [
 ];
 
 // createBrowserRouter로 RouterObject 생성
-const RouterObject = createHashRouter(RouterInfo);
+const RouterObject = createBrowserRouter(RouterInfo);
 
 export default RouterObject;
