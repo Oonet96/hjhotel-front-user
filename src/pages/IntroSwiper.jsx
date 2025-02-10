@@ -181,7 +181,7 @@ return (
     className={`bg_slide ${animateSlide ? "animate" : ""}`} 
     style={{
       display: "block",
-      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/bg3.jpg")`
+      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/bg3.jpg)`
     }}
   >
     <h1 className="intro_Slogan">Unwind in Comfort</h1>
@@ -210,7 +210,7 @@ return (
   <Link to="/" className="bg_slide5" 
   style={{
       display: "block",
-      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/bg1.jpg")`
+      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/bg1.jpg)`
     }}
   >
     <h1 className="intro_Slogan">Experience the Best</h1>
