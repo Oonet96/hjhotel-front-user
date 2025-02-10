@@ -80,7 +80,7 @@ function InnerSwiperSlider() {
             <SwiperSlide key={slide.id}>
               <div className="inner_content_area">
                 <img
-                  src={slide.image}
+                  src={process.env.PUBLIC_URL+slide.image}
                   alt={slide.title}
                   className="slide_image"
                 />

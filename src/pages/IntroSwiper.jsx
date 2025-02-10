@@ -157,7 +157,7 @@ return (
             id={slide.id}>
               <div id="HomeIntro">
                 <video autoPlay muted loop>
-                  <source src={slide.video} type="video/mp4" />
+                  <source src={process.env.PUBLIC_URL+slide.video} type="video/mp4" />
                 </video>
                 {slide.slogan && (
                   <h1 className={slide.sloganClass}>{slide.slogan}</h1>
@@ -181,7 +181,7 @@ return (
     className={`bg_slide ${animateSlide ? "animate" : ""}`} 
     style={{
       display: "block",
-      backgroundImage: `url("/assets/images/bg3.jpg")`,
+      backgroundImage: `url("%PUBLIC_URL%/assets/images/bg3.jpg")`,
     }}
   >
     <h1 className="intro_Slogan">Unwind in Comfort</h1>
@@ -196,7 +196,7 @@ return (
   <Link to="/" className="bg_slide4" 
   style={{
       display: "block",
-      backgroundImage: `url("/assets/images/bg4.jpg")`
+      backgroundImage: `url("%PUBLIC_URL%/assets/images/bg4.jpg")`
     }}
   >
     <h1 className="intro_Slogan">Experience the Best</h1>
@@ -210,7 +210,7 @@ return (
   <Link to="/" className="bg_slide5" 
   style={{
       display: "block",
-      backgroundImage: `url("/assets/images/bg1.jpg")`
+      backgroundImage: `url("%PUBLIC_URL%/assets/images/bg1.jpg")`
     }}
   >
     <h1 className="intro_Slogan">Experience the Best</h1>
