@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 import './css/Footer.css';
+import config from '../../config.js';
 
 export default function Footer() {
   const [userInfo, setUserInfo] = useState(null); // 사용자 정보 상태
@@ -8,7 +9,7 @@ export default function Footer() {
   // 사용자 정보 가져오기
   const fetchUserInfo = async () => {
     try {
-      const response = await fetch("http://localhost:8080/api/users/info", {
+      const response = await fetch(`${config.API_BASE_URL}/api/users/info`, {
         method: "GET",
         credentials: "include", // JWT 쿠키 전송
       });
@@ -29,7 +30,7 @@ export default function Footer() {
   // 로그아웃 처리
   const handleLogout = async () => {
     try {
-      const response = await fetch("http://localhost:8080/api/users/logout", {
+      const response = await fetch(`${config.API_BASE_URL}/api/users/logout`, {
         method: "GET",
         credentials: "include", // 쿠키 자동 전송
       });
