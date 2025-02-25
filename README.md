@@ -1,6 +1,7 @@
 
-# [project page](https://oonet96.github.io/hjhotel-front-user/)
+# [github page](https://oonet96.github.io/hjhotel-front-user/)
 
+# [google cloud page](http://35.216.4.178:3001/)
 
 # Getting Started with Create React App
 
